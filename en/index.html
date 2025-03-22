@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='Daiki Kohama portfolio'>
+  <meta property='og:url' content='URLが入る'>
+  <meta property='og:description' content='This is Daiki Kohama portfolio site'>
+  <meta property="og:image" content="/img/favicon.ico">
+  <meta name="description" content="This is Daiki Kohama portfolio site" />
+  <title>Daiki Kohama</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="/css/ress.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="/css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="/img/favicon.ico" />
+  <link rel=”canonical” href=”URLが入る” />
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header ">
+      <div class="container">
+        <div class="header-left">
+          <h1 class="header-logo">
+            <a href=".">Daiki Kohama</a>
+          </h1>
+          <div class="lang-switch">
+            <a class="lang-btn" href="/">JP</a>
+            <span>|</span>
+            <a class="lang-btn" href="/en">EN</a>
+          </div>
+        </div>
+        <nav class="gnav">
+          <ul class="gnav-list">
+            <li class="gnav-item"><a href="#biography">BIOGRAPHY</a></li>
+            <li class="gnav-item"><a href="#publications">PUBLICATIONS</a></li>
+            <li class="gnav-item"><a href="#awards">AWARDS</a></li>
+            <li class="gnav-item"><a href="#social">SOCIAL</a></li>
+          </ul>
+        </nav>
+        <!-- モバイル用メニューボタン -->
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+
+      <!-- mv -->
+      <div class="mv">
+        <div class="mv-container">
+          <h1 class="mv-title">DAIKI KOHAMA</h1>
+          <h2 class="mv-subtitle">小濱 大輝</h2>
+          <p class="mv-text">
+            My name is Daiki Kohama. <br class="sp-only">
+            I am a master's student <br class="sp-only">
+            at Nagoya University, Japan.<br>
+            I belong to the <a href="https://ucl.nuee.nagoya-u.ac.jp/" target="_blank">Kawaguchi Lab</a> <br class="sp-only">
+            in the Department of Information and Communication Engineering<br>
+            at the Graduate School of Engineering.
+          </p>
+          <div class="mv-photo">
+            <img class="mv-photo" src="/img/DSC00006_face_crop.jpg" alt="Daiki Kohama Photo">
+          </div>
+        </div>
+      </div>
+      <!-- /mv -->
+
+      <!-- biography -->
+      <section class="biography section" id="biography">
+        <div class="container">
+          <h2 class="title">BIOGRAPHY</h2>
+          <div class="sub-section">
+            <h3 class="sub-title">Research Interests</h3>
+            <ul>
+              <li>Ubiquitous Computing</li>
+              <li>Computer Vision</li>
+              <li>3D Reconstruction</li>
+            </ul>
+          </div>
+          <div class="sub-section">
+            <h3 class="sub-title">Education</h3>
+            <table>
+              <tbody>
+                <tr>
+                  <td>2023.4 -</td>
+                  <td>
+                    <a href="https://www.nuee.nagoya-u.ac.jp/index-e.php" target="_blank">Department of Information and Communication Engineering</a>,<br>
+                    <a href="https://www.engg.nagoya-u.ac.jp/?lang=en" target="_blank">Graduate School of Engineering</a>, <a href="https://en.nagoya-u.ac.jp/" target="_blank">Nagoya University, Japan</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2019.4 - 2023.3</td>
+                  <td>
+                    <a href="https://www.nuee.nagoya-u.ac.jp/index-e.php" target="_blank">Department of Electrical Engineering, Electronics, and Information Engineering</a>,<br>
+                    <a href="https://www.engg.nagoya-u.ac.jp/?lang=en" target="_blank">School of Engineering</a>, <a href="https://en.nagoya-u.ac.jp/" target="_blank">Nagoya University, Japan</a> 
+                  </td>
+                </tr>
+                <tr>
+                  <td>2016.4 - 2019.3</td>
+                  <td>
+                    <a href="https://www.mie-c.ed.jp/hkawag/" target="_blank">Mie Prefectural Kawagoe High School</a>, International Science and Humanities Course
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="sub-section">
+            <h3 class="sub-title">Career</h3>
+            <table>
+              <tbody>
+                <tr>
+                  <td>2024.12 -</td>
+                  <td><a href="https://exdata.co.jp/" target="_blank">ExData. Inc.</a> Director</td>
+                </tr>
+                <tr>
+                  <td>2023.1 -</td>
+                  <td><a href="https://exdata.co.jp/" target="_blank">ExData. Inc.</a></td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+      </section>
+      <!-- /biography -->
+
+      <!-- publications -->
+      <section class="publications section" id="publications">
+        <div class="container">
+          <h2 class="title">PUBLICATIONS</h2>
+          <div class="sub-section">
+            <h3 class="sub-title">Journal</h3>
+            <ul>
+              <li>
+                <u>Daiki Kohama</u>, Yoshiteru Nagata, Kazushige Yasutake, Kenta Urano, Shin Katayama, Takuro Yonezawa, Nobuo Kawaguchi<br>
+                Fixture-aware Panoramic Ceiling Image Synthesis using an Omnidirectional Camera<br>
+                Journal of Information and Peocessing (JIP), Vol.33, pp.245-258, March, 2025.<br>
+                <b><a href="https://www.ipsj.or.jp/english/organization/aboutipsj/award/ssp_award.html#:~:text=Released%20on%20March%2015%2C%202025" target="_blank">Specially Selected Paper</a></b> <a href="https://doi.org/10.2197/ipsjjip.33.245" target="_blank">[link]</a>
+              </li>
+            </ul>
+          </div>
+          <div class="sub-section">
+            <h3 class="sub-title">International Conference</h3>
+            <ul>
+              <li>
+                <u>Daiki Kohama</u>, Yoshiteru Nagata, Kazushige Yasutake, Kenta Urano, Shin Katayama, Takuro Yonezawa, Nobuo Kawaguchi<br>
+                Demo: Assisting System for Creating Ceiling Plan Using a Video from a Smatrphone<br>
+                The 22nd ACM International Conference on Mobile Systems, Applications, and Services (MobiSys 2024), pp.620-621, June, 2024. <a href="https://doi.org/10.1145/3643832.3661847" target="_blank">[link]</a> <a href="https://db.uclab.jp/show/1493" target="_blank">[paper]</a>
+              </li>
+              <li>
+                Yoshiteru Nagata, <u>Daiki Kohama</u>, Yoshiki Watanabe, Shin Katayama, Kenta Urano, Takuro Yonezawa, and Nobuo Kawaguchi<br>
+                Poster: Sustainable Data Management Flow for Spatio-Temporal Datasets<br>
+                The 22nd ACM International Conference on Mobile Systems, Applications, and Services (MobiSys 2024), pp.688-689, June, 2024. <a href="https://doi.org/10.1145/3643832.3661423" target="_blank">[link]</a> <a href="https://db.uclab.jp/show/1494" target="_blank">[paper]</a>
+              <li>
+                <u>Daiki Kohama</u>, Yoshiteru Nagata, Kazushige Yasutake, Kenta Urano, Shin Katayama, Takuro Yonezawa, Nobuo Kawaguchi<br>
+                Panoramic Ceiling Image Synthesis Method Prioritizing Fixture Outlines using an Omnidirectional Camera<br>
+                The 14th International Conference on Mobile Computing and Ubiquitous Networking (ICMU2023), pp.157-164, November, 2023.<br>
+                <b><a href="https://www.icmu.org/icmu2023/award.html" target="_blank">Best Paper Award</a></b> <a href="https://doi.org/10.23919/ICMU58504.2023.10412256" target="_blank">[link]</a> <a href="https://db.uclab.jp/show/1479" target="_blank">[paper]</a>
+              </li>
+            </ul>
+          </div>
+          <div class="sub-section">
+            <h3 class="sub-title">Domestic <br class="sp-only">Conference</h3>
+            <ul>
+              <li>
+                <u>小濱 大輝</u>, 永田 吉輝, 安武 和成, 酒見 和幸, 片山 晋, 浦野 健太, 米澤 拓郎, 河口 信夫<br>
+                スマートフォン・全方位カメラを用いた作業効率化のための半自動天伏図作成システム<br>
+                空気調和・衛生工学会大会(佐賀), pp.485-488, 9月, 2024.<br>
+                <b><a href="https://www.shasej.org/taikai/2024saga/yuusyuukouen-koukai/yuusyuukouenn-koukai.html" target="_blank">優秀講演奨励賞</a></b> <a href="https://db.uclab.jp/show/1500" target="_blank">[paper]</a>
+              </li>
+              <li>
+                <u>小濱 大輝</u>, 永田 吉輝, 安武 和成, 片山 晋, 浦野 健太, 米澤 拓郎, 河口 信夫<br>
+                天伏図自動復元のための設備位置・形状アライメント手法<br>
+                第42回電気設備学会全国大会, pp.76-77, 8月, 2024. <a href="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202402272257820583" target="_blank">[link]</a> <a href="https://db.uclab.jp/show/1501" target="_blank">[paper]</a>
+              </li>
+              <li>
+                <u>小濱 大輝</u>, 永田 吉輝, 安武 和成, 浦野 健太, 片山 晋, 米澤 拓郎, 河口 信夫<br>
+                天伏図作成補助システムにおける全方位カメラを用いた天井設備の多視点画像抽出手法<br>
+                第41回電気設備学会全国大会, pp.61-63, 8月, 2023.<br>
+                <b><a href="https://www.ieiej.or.jp/activity/award/conference_2023.html" target="_blank">優秀発表賞</a></b> <a href="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202402289505581890" target="_blank">[link]</a> <a href="https://db.uclab.jp/show/1470" target="_blank">[paper]</a>
+              </li>
+              <li>
+                <u>小濱大輝</u>, 永田 吉輝, 安武 和成, 浦野 健太, 片山 晋, 米澤 拓郎, 河口 信夫<br>
+                全方位カメラによる設備外形を考慮した天井パノラマ画像合成手法<br>
+                マルチメディア，分散，協調とモバイル (DICOMO 2023) シンポジウム, pp.427-435, 7月, 2023.<br>
+                <b><a href="https://dicomo.org/2023/commendation/" target="_blank">優秀プレゼンテーション賞, 優秀論文賞</a></b> <a href="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202402214024613916" target="_blank">[link]</a> <a href="https://db.uclab.jp/show/1469" target="_blank">[paper]</a> <a href="https://www.youtube.com/watch?v=iVq9CVJACmc" target="_blank">[video]</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- /publications -->
+
+      <!-- awards -->
+      <section class="awards section" id="awards">
+        <div class="container">
+          <h2 class="title">AWARDS</h2>
+          <div class="sub-section">
+            <ul>
+              <li>Specially Selected Paper, Journal of Information and Peocessing (JIP), 2025.3 <a href="https://www.ipsj.or.jp/english/organization/aboutipsj/award/ssp_award.html#:~:text=Released%20on%20March%2015%2C%202025" target="_blank">[link]</a></li>
+              <li>優秀講演奨励賞, 空気調和・衛生工学会大会(佐賀), 2024.9 <a href="https://www.shasej.org/taikai/2024saga/yuusyuukouen-koukai/yuusyuukouenn-koukai.html" target="_blank">[link]</a></li>
+              <li>最優秀賞, わたしのミライKAIZENアワード2023, 2024.3 <a href="https://www.toyotasystems.com/contest-sdgs/2023/news/detail/?y=2024&m=03&id=442" target="_blank">[link]</a></li>
+              <li>優秀賞, 令和五年度電気系専攻修士論文中間発表会, 2023.12</li>
+              <li>Best Paper Award, The 14th International Conference on Mobile Computing and Ubiquitous Networking (ICMU2023), 2023.11 <a href="https://www.icmu.org/icmu2023/award.html" target="_blank">[link]</a></li>
+              <li>優秀発表賞, 第41回電気設備学会全国大会, 2023.8 <a href="https://www.ieiej.or.jp/activity/award/conference_2023.html" target="_blank">[link]</a></li>
+              <li>優秀プレゼンテーション賞, 優秀論文賞, 2023.7 <a href="https://dicomo.org/2023/commendation/" target="_blank">[link]</a></li>
+              <li>6位, AI, Deep Learning in Mobility コンテスト, 2022.3 <a href="https://zero2one.jp/lp/mobility-contest-students-1/?srsltid=AfmBOorQO5VNOrLXmxSv51FJOTsH31VkUkeK9ZPXvPn0a6lkP1FwTH3D" target="_blank">[link]</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- /awards -->
+
+      <!-- social -->
+      <section class="social section" id="social">
+        <div class="container">
+          <h2 class="title">SOCIAL</h2>
+          <div class="sub-section">
+            <div class="social-list">
+              <a class="social-item" href="mailto:daiki.08122611@gmail.com" target="_blank">
+                <svg stroke="#333" fill="#333" stroke-width="0" viewBox="0 0 512 512" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path>
+                </svg>
+              </a>
+              <a class="social-item" href="https://github.com/daiki-kohama" target="_blank">
+                <svg stroke="#333" fill="#333" stroke-width="0" viewBox="0 0 496 512" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /social -->
+
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;DAIKI KOHAMA</div>
+    </footer>
+    <!-- /footer -->
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type='text/javascript' src="/js/script.js"></script>
+</body>
+</html>
